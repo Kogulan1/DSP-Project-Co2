@@ -3,7 +3,7 @@ import streamlit as st
 #import models.db_update from dbupdate
 
 # loading the trained model
-pickle_in = open('https://github.com/Kogulan1/DSP-Project-Co2/edit/main/ML_CO2/models/model_pickle.pkl', 'rb')
+pickle_in = open('model_pickle.pkl', 'rb')
 model = pickle.load(pickle_in)
 
 
